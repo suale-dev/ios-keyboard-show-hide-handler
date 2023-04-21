@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BADD907B29F24475006F8AE7 /* KeyboardHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADD907A29F24475006F8AE7 /* KeyboardHandler.swift */; };
+		6525D5F1783589A692DA9AFB /* Pods_KeyboardShowHideHandler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E2D0D20290B56FDC016B96 /* Pods_KeyboardShowHideHandler.framework */; };
 		BADF510B29F24423007C33EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADF510A29F24423007C33EE /* AppDelegate.swift */; };
 		BADF510D29F24423007C33EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADF510C29F24423007C33EE /* SceneDelegate.swift */; };
 		BADF510F29F24423007C33EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADF510E29F24423007C33EE /* ViewController.swift */; };
@@ -17,8 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BADD907A29F24475006F8AE7 /* KeyboardHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHandler.swift; sourceTree = "<group>"; };
-		BADF510729F24423007C33EE /* KeyboardShowHideHandler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardShowHideHandler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41E2D0D20290B56FDC016B96 /* Pods_KeyboardShowHideHandler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyboardShowHideHandler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4269C9AE80E54AC07AEB57C4 /* Pods-KeyboardShowHideHandler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyboardShowHideHandler.debug.xcconfig"; path = "Target Support Files/Pods-KeyboardShowHideHandler/Pods-KeyboardShowHideHandler.debug.xcconfig"; sourceTree = "<group>"; };
+		9E0B0F75835ABCE48452A3D5 /* Pods-KeyboardShowHideHandler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyboardShowHideHandler.release.xcconfig"; path = "Target Support Files/Pods-KeyboardShowHideHandler/Pods-KeyboardShowHideHandler.release.xcconfig"; sourceTree = "<group>"; };
+		BADF510729F24423007C33EE /* KeyboardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BADF510A29F24423007C33EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BADF510C29F24423007C33EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BADF510E29F24423007C33EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,29 +35,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6525D5F1783589A692DA9AFB /* Pods_KeyboardShowHideHandler.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13246D79F49D569D981A35EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41E2D0D20290B56FDC016B96 /* Pods_KeyboardShowHideHandler.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23E04CD6D53A16E598C988B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4269C9AE80E54AC07AEB57C4 /* Pods-KeyboardShowHideHandler.debug.xcconfig */,
+				9E0B0F75835ABCE48452A3D5 /* Pods-KeyboardShowHideHandler.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BADF50FE29F24423007C33EE = {
 			isa = PBXGroup;
 			children = (
-				BADF510929F24423007C33EE /* KeyboardShowHideHandler */,
+				BADF510929F24423007C33EE /* KeyboardDemo */,
 				BADF510829F24423007C33EE /* Products */,
+				23E04CD6D53A16E598C988B9 /* Pods */,
+				13246D79F49D569D981A35EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		BADF510829F24423007C33EE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BADF510729F24423007C33EE /* KeyboardShowHideHandler.app */,
+				BADF510729F24423007C33EE /* KeyboardDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BADF510929F24423007C33EE /* KeyboardShowHideHandler */ = {
+		BADF510929F24423007C33EE /* KeyboardDemo */ = {
 			isa = PBXGroup;
 			children = (
 				BADF510A29F24423007C33EE /* AppDelegate.swift */,
@@ -65,29 +87,30 @@
 				BADF511329F24424007C33EE /* Assets.xcassets */,
 				BADF511529F24424007C33EE /* LaunchScreen.storyboard */,
 				BADF511829F24424007C33EE /* Info.plist */,
-				BADD907A29F24475006F8AE7 /* KeyboardHandler.swift */,
 			);
-			path = KeyboardShowHideHandler;
+			path = KeyboardDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BADF510629F24423007C33EE /* KeyboardShowHideHandler */ = {
+		BADF510629F24423007C33EE /* KeyboardDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BADF511B29F24424007C33EE /* Build configuration list for PBXNativeTarget "KeyboardShowHideHandler" */;
+			buildConfigurationList = BADF511B29F24424007C33EE /* Build configuration list for PBXNativeTarget "KeyboardDemo" */;
 			buildPhases = (
+				1B625AF7B45AB85660637F91 /* [CP] Check Pods Manifest.lock */,
 				BADF510329F24423007C33EE /* Sources */,
 				BADF510429F24423007C33EE /* Frameworks */,
 				BADF510529F24423007C33EE /* Resources */,
+				77FE72A343B62A32BD0CB5D9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = KeyboardShowHideHandler;
+			name = KeyboardDemo;
 			productName = KeyboardShowHideHandler;
-			productReference = BADF510729F24423007C33EE /* KeyboardShowHideHandler.app */;
+			productReference = BADF510729F24423007C33EE /* KeyboardDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +128,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BADF510229F24423007C33EE /* Build configuration list for PBXProject "KeyboardShowHideHandler" */;
+			buildConfigurationList = BADF510229F24423007C33EE /* Build configuration list for PBXProject "KeyboardDemo" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +141,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BADF510629F24423007C33EE /* KeyboardShowHideHandler */,
+				BADF510629F24423007C33EE /* KeyboardDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -136,6 +159,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B625AF7B45AB85660637F91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeyboardShowHideHandler-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77FE72A343B62A32BD0CB5D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeyboardShowHideHandler/Pods-KeyboardShowHideHandler-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeyboardShowHideHandler/Pods-KeyboardShowHideHandler-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KeyboardShowHideHandler/Pods-KeyboardShowHideHandler-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BADF510329F24423007C33EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -144,7 +209,6 @@
 				BADF510F29F24423007C33EE /* ViewController.swift in Sources */,
 				BADF510B29F24423007C33EE /* AppDelegate.swift in Sources */,
 				BADF510D29F24423007C33EE /* SceneDelegate.swift in Sources */,
-				BADD907B29F24475006F8AE7 /* KeyboardHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +350,7 @@
 		};
 		BADF511C29F24424007C33EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4269C9AE80E54AC07AEB57C4 /* Pods-KeyboardShowHideHandler.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -293,7 +358,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RQGER6NT9Q;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = KeyboardShowHideHandler/Info.plist;
+				INFOPLIST_FILE = KeyboardDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -305,7 +370,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kesu.KeyboardShowHideHandler;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kesu.KeyboardDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -315,6 +380,7 @@
 		};
 		BADF511D29F24424007C33EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E0B0F75835ABCE48452A3D5 /* Pods-KeyboardShowHideHandler.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,7 +388,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RQGER6NT9Q;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = KeyboardShowHideHandler/Info.plist;
+				INFOPLIST_FILE = KeyboardDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -334,7 +400,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kesu.KeyboardShowHideHandler;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kesu.KeyboardDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -345,7 +411,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BADF510229F24423007C33EE /* Build configuration list for PBXProject "KeyboardShowHideHandler" */ = {
+		BADF510229F24423007C33EE /* Build configuration list for PBXProject "KeyboardDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BADF511929F24424007C33EE /* Debug */,
@@ -354,7 +420,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BADF511B29F24424007C33EE /* Build configuration list for PBXNativeTarget "KeyboardShowHideHandler" */ = {
+		BADF511B29F24424007C33EE /* Build configuration list for PBXNativeTarget "KeyboardDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BADF511C29F24424007C33EE /* Debug */,

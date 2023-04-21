@@ -6,15 +6,11 @@
 //
 
 import UIKit
+import KeyboardShowHideHandler
 
 class ViewController: UIViewController {
   @IBOutlet var scrollView: UIScrollView!
-
-  override func viewDidLoad() {
-    super.viewDidLoad()
-    // Do any additional setup after loading the view.
-  }
-
+  
   override func viewWillAppear(_ animated: Bool) {
     super.viewWillAppear(animated)
     addObservingKeyboard()
@@ -30,10 +26,8 @@ extension ViewController: KeyboardHandler {
     scrollView
   }
 
-  /// Optional
-
   var distanceToKeyboard: Int {
-    return 20
+    return 10
   }
 
   var tapAnywhereToDismissKeyboard: Bool {
@@ -41,7 +35,9 @@ extension ViewController: KeyboardHandler {
   }
 
   var supportViewTypes: [UIView.Type] {
-    return [UITextField.self, UITextView.self]
+    return [
+      UITextField.self, UITextView.self
+    ]
   }
 }
 

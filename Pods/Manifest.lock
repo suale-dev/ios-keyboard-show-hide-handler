@@ -1,0 +1,16 @@
+PODS:
+  - KeyboardShowHideHandler (1.0.0)
+
+DEPENDENCIES:
+  - KeyboardShowHideHandler (from `.`)
+
+EXTERNAL SOURCES:
+  KeyboardShowHideHandler:
+    :path: "."
+
+SPEC CHECKSUMS:
+  KeyboardShowHideHandler: d992dff50c736782763783b11718e0817273abc7
+
+PODFILE CHECKSUM: bc3437482734d33ef6221ffe9cf59aea2bcdc3ea
+
+COCOAPODS: 1.11.3

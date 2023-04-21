@@ -2,7 +2,7 @@
 //  KeyboardHandler.swift
 //  KeyboardShowHideHandler
 //
-//  Created by Kem on 4/21/23.
+//  Created by Sua Le on 4/21/23.
 //
 
 import Foundation
@@ -46,23 +46,23 @@ extension KeyboardHandler {
     return keyboardManager!
   }
 
-  var supportViewTypes: [UIView.Type] {
+  public var supportViewTypes: [UIView.Type] {
     return [UITextField.self, UITextView.self]
   }
 
-  var distanceToKeyboard: Int {
+  public var distanceToKeyboard: Int {
     return 10
   }
 
-  var tapAnywhereToDismissKeyboard: Bool {
+  public var tapAnywhereToDismissKeyboard: Bool {
     return true
   }
 
-  func addObservingKeyboard() {
+  public func addObservingKeyboard() {
     keyboardManager.addObservingKeyboard()
   }
 
-  func removeObservingKeyboard() {
+  public func removeObservingKeyboard() {
     keyboardManager.removeObservingKeyboard()
   }
 }
