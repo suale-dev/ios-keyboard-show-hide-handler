@@ -61,9 +61,4 @@ extension ViewController: KeyboardHandler {
 ```
 
 # Demo
-When keyboard is hidden\
-<img src="https://raw.githubusercontent.com/suale-dev/ios-keyboard-show-hide-handler/main/Images/keyboard-hide.png" width="200">
-
-
-When keyboard is showed\
-<img src="https://raw.githubusercontent.com/suale-dev/ios-keyboard-show-hide-handler/main/Images/keyboard-show.png" width="200">
+<img src="https://raw.githubusercontent.com/suale-dev/ios-keyboard-show-hide-handler/main/Images/result.gif" width="300">

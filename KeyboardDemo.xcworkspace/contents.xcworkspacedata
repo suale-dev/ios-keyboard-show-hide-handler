@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/kem/Practices/ios-keyboard-show-hide-handler/KeyboardDemo.xcodeproj">
+      location = "group:KeyboardDemo.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

@@ -7,18 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6525D5F1783589A692DA9AFB /* Pods_KeyboardShowHideHandler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E2D0D20290B56FDC016B96 /* Pods_KeyboardShowHideHandler.framework */; };
 		BADF510B29F24423007C33EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADF510A29F24423007C33EE /* AppDelegate.swift */; };
 		BADF510D29F24423007C33EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADF510C29F24423007C33EE /* SceneDelegate.swift */; };
 		BADF510F29F24423007C33EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADF510E29F24423007C33EE /* ViewController.swift */; };
 		BADF511229F24423007C33EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BADF511029F24423007C33EE /* Main.storyboard */; };
 		BADF511429F24424007C33EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BADF511329F24424007C33EE /* Assets.xcassets */; };
 		BADF511729F24424007C33EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BADF511529F24424007C33EE /* LaunchScreen.storyboard */; };
+		CADCA8730539F6E6CB8B6C6E /* Pods_KeyboardDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55558EBE3073E2741C8E5F6E /* Pods_KeyboardDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		41E2D0D20290B56FDC016B96 /* Pods_KeyboardShowHideHandler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyboardShowHideHandler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		418919BE05763A98B1D5C697 /* Pods-KeyboardDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyboardDemo.release.xcconfig"; path = "Target Support Files/Pods-KeyboardDemo/Pods-KeyboardDemo.release.xcconfig"; sourceTree = "<group>"; };
 		4269C9AE80E54AC07AEB57C4 /* Pods-KeyboardShowHideHandler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyboardShowHideHandler.debug.xcconfig"; path = "Target Support Files/Pods-KeyboardShowHideHandler/Pods-KeyboardShowHideHandler.debug.xcconfig"; sourceTree = "<group>"; };
+		55558EBE3073E2741C8E5F6E /* Pods_KeyboardDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyboardDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E0B0F75835ABCE48452A3D5 /* Pods-KeyboardShowHideHandler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyboardShowHideHandler.release.xcconfig"; path = "Target Support Files/Pods-KeyboardShowHideHandler/Pods-KeyboardShowHideHandler.release.xcconfig"; sourceTree = "<group>"; };
 		BADF510729F24423007C33EE /* KeyboardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BADF510A29F24423007C33EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +29,7 @@
 		BADF511329F24424007C33EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BADF511629F24424007C33EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BADF511829F24424007C33EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7638D7BEFE576F51C17EA50 /* Pods-KeyboardDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyboardDemo.debug.xcconfig"; path = "Target Support Files/Pods-KeyboardDemo/Pods-KeyboardDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6525D5F1783589A692DA9AFB /* Pods_KeyboardShowHideHandler.framework in Frameworks */,
+				CADCA8730539F6E6CB8B6C6E /* Pods_KeyboardDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,7 +47,7 @@
 		13246D79F49D569D981A35EB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				41E2D0D20290B56FDC016B96 /* Pods_KeyboardShowHideHandler.framework */,
+				55558EBE3073E2741C8E5F6E /* Pods_KeyboardDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -55,6 +57,8 @@
 			children = (
 				4269C9AE80E54AC07AEB57C4 /* Pods-KeyboardShowHideHandler.debug.xcconfig */,
 				9E0B0F75835ABCE48452A3D5 /* Pods-KeyboardShowHideHandler.release.xcconfig */,
+				E7638D7BEFE576F51C17EA50 /* Pods-KeyboardDemo.debug.xcconfig */,
+				418919BE05763A98B1D5C697 /* Pods-KeyboardDemo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -175,7 +179,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-KeyboardShowHideHandler-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-KeyboardDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -188,15 +192,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KeyboardShowHideHandler/Pods-KeyboardShowHideHandler-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-KeyboardDemo/Pods-KeyboardDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KeyboardShowHideHandler/Pods-KeyboardShowHideHandler-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-KeyboardDemo/Pods-KeyboardDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KeyboardShowHideHandler/Pods-KeyboardShowHideHandler-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KeyboardDemo/Pods-KeyboardDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -350,7 +354,7 @@
 		};
 		BADF511C29F24424007C33EE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4269C9AE80E54AC07AEB57C4 /* Pods-KeyboardShowHideHandler.debug.xcconfig */;
+			baseConfigurationReference = E7638D7BEFE576F51C17EA50 /* Pods-KeyboardDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -380,7 +384,7 @@
 		};
 		BADF511D29F24424007C33EE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E0B0F75835ABCE48452A3D5 /* Pods-KeyboardShowHideHandler.release.xcconfig */;
+			baseConfigurationReference = 418919BE05763A98B1D5C697 /* Pods-KeyboardDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

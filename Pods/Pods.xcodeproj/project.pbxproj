@@ -10,14 +10,14 @@
 		3D498814F722F24D66870D3F547C84B5 /* KeyboardHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B8E80E3DD3D36F60C7AF6EB5F974FD /* KeyboardHandler.swift */; };
 		4349E3A81EEF1ECD088FA3A8092A5043 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		596FBC51BF6DCAC82DE7E7B10D8D8D13 /* KeyboardShowHideHandler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B618C60E7C1A980BB343E9D5E0F5F8C /* KeyboardShowHideHandler-dummy.m */; };
-		66D931FBD483F961991909D627675EBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		716F2262EF8BBED3FBC8F011B499A2FA /* Pods-KeyboardDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3369F20C0FA1A00578323BEBBB56D711 /* Pods-KeyboardDemo-dummy.m */; };
+		A57976CF0829FA4980435F4E6A4FCB01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		AB8797EC5A486494779D275E9BA4C56F /* KeyboardShowHideHandler-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E94422E733143C0C13B0C16093805A6 /* KeyboardShowHideHandler-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4008A5CEE5FB3DFF8D61AF39AE3B6CC /* Pods-KeyboardShowHideHandler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 252092E613F3ED80365A6AE28A3B316D /* Pods-KeyboardShowHideHandler-dummy.m */; };
-		D230302BBFD700A8E6A975F208C18097 /* Pods-KeyboardShowHideHandler-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB936287D9DAE88F861B42F1FE581B1 /* Pods-KeyboardShowHideHandler-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F72866CBA4D36956EE773656F1C5BBEE /* Pods-KeyboardDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EF87993C24CA51CC48178E418343FEF /* Pods-KeyboardDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D17E134444D9828939DD14D3C2972280 /* PBXContainerItemProxy */ = {
+		8F7197E5665E64595AD227431DC5E81F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -27,29 +27,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1259E14C4E0C45C6153B9CDDD1CE939F /* Pods-KeyboardShowHideHandler-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeyboardShowHideHandler-frameworks.sh"; sourceTree = "<group>"; };
+		0CEC082594E33A3D8AF3D3D10EA66782 /* Pods-KeyboardDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KeyboardDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1817C5FFE39CB14B6B87C6C4392CD7CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		19978845E21C89EFE8BCF3C6C1A513FE /* Pods-KeyboardShowHideHandler */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KeyboardShowHideHandler"; path = Pods_KeyboardShowHideHandler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		20081F776D6395CF577031C4F74FE737 /* Pods-KeyboardShowHideHandler-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeyboardShowHideHandler-Info.plist"; sourceTree = "<group>"; };
-		252092E613F3ED80365A6AE28A3B316D /* Pods-KeyboardShowHideHandler-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KeyboardShowHideHandler-dummy.m"; sourceTree = "<group>"; };
+		1EF87993C24CA51CC48178E418343FEF /* Pods-KeyboardDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KeyboardDemo-umbrella.h"; sourceTree = "<group>"; };
+		233EDD07D04AB15D761FF84C5D89000F /* Pods-KeyboardDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyboardDemo.release.xcconfig"; sourceTree = "<group>"; };
 		2EE812A994031F9A40B9F90D4541632F /* KeyboardShowHideHandler-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeyboardShowHideHandler-prefix.pch"; sourceTree = "<group>"; };
+		3369F20C0FA1A00578323BEBBB56D711 /* Pods-KeyboardDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KeyboardDemo-dummy.m"; sourceTree = "<group>"; };
 		3E94422E733143C0C13B0C16093805A6 /* KeyboardShowHideHandler-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeyboardShowHideHandler-umbrella.h"; sourceTree = "<group>"; };
 		4389AF4814A1D89923AC87F3AE67155C /* KeyboardShowHideHandler-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KeyboardShowHideHandler-Info.plist"; sourceTree = "<group>"; };
-		4B510F22CB223587A011852D059B04A7 /* Pods-KeyboardShowHideHandler.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KeyboardShowHideHandler.modulemap"; sourceTree = "<group>"; };
-		5DB936287D9DAE88F861B42F1FE581B1 /* Pods-KeyboardShowHideHandler-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KeyboardShowHideHandler-umbrella.h"; sourceTree = "<group>"; };
 		615C005D122B4107CC5323A06A101753 /* KeyboardShowHideHandler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeyboardShowHideHandler.debug.xcconfig; sourceTree = "<group>"; };
-		6823A43F655AF4D1F96D93DAE4BD39C7 /* Pods-KeyboardShowHideHandler-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KeyboardShowHideHandler-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		778B9C4292612A2722372C0716C13A1B /* Pods-KeyboardShowHideHandler-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeyboardShowHideHandler-acknowledgements.plist"; sourceTree = "<group>"; };
 		7B618C60E7C1A980BB343E9D5E0F5F8C /* KeyboardShowHideHandler-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeyboardShowHideHandler-dummy.m"; sourceTree = "<group>"; };
 		8266F7298FAFB5A288E4267E6B931D2B /* KeyboardShowHideHandler */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KeyboardShowHideHandler; path = KeyboardShowHideHandler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5557CFAAC84EEA40FC6C6DA9CDD85F /* KeyboardShowHideHandler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeyboardShowHideHandler.release.xcconfig; sourceTree = "<group>"; };
 		9B0AD6C2D31EBB905315D6C688CB764B /* KeyboardShowHideHandler.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KeyboardShowHideHandler.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4B8E80E3DD3D36F60C7AF6EB5F974FD /* KeyboardHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardHandler.swift; path = Classes/KeyboardHandler.swift; sourceTree = "<group>"; };
-		C6268E059B9F1054AD20F1B19B307916 /* Pods-KeyboardShowHideHandler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyboardShowHideHandler.debug.xcconfig"; sourceTree = "<group>"; };
+		B1B30C5819B9CC55916CCFA939BBA5AB /* Pods-KeyboardDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KeyboardDemo"; path = Pods_KeyboardDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5A2978F94266B3888CF6427C19C0CF6 /* Pods-KeyboardDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyboardDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D33D17AA58DE4F2AD3D1837001844EC0 /* Pods-KeyboardDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeyboardDemo-frameworks.sh"; sourceTree = "<group>"; };
+		DBC7EC8B92FC135AA71CF10A03819E8C /* Pods-KeyboardDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KeyboardDemo.modulemap"; sourceTree = "<group>"; };
 		DD962B3A68E5C41FE193D01DB4704B3C /* KeyboardShowHideHandler.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KeyboardShowHideHandler.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F6B23545C430D62155EE2E8A76B15B0C /* Pods-KeyboardShowHideHandler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyboardShowHideHandler.release.xcconfig"; sourceTree = "<group>"; };
+		F0CF49D7A5E8E52606835D8BD5F10701 /* Pods-KeyboardDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeyboardDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		F0FF6E11F65C89BD1C87AA3C27AE9E7D /* Pods-KeyboardDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeyboardDemo-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,34 +61,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B1121890D9B165040AB2090F4C56CE3 /* Frameworks */ = {
+		2CF20199ED193F9A33204AE4397F869B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66D931FBD483F961991909D627675EBC /* Foundation.framework in Frameworks */,
+				A57976CF0829FA4980435F4E6A4FCB01 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4D05CAB6C767535860019B2C1EA445BB /* Pods-KeyboardShowHideHandler */ = {
-			isa = PBXGroup;
-			children = (
-				4B510F22CB223587A011852D059B04A7 /* Pods-KeyboardShowHideHandler.modulemap */,
-				6823A43F655AF4D1F96D93DAE4BD39C7 /* Pods-KeyboardShowHideHandler-acknowledgements.markdown */,
-				778B9C4292612A2722372C0716C13A1B /* Pods-KeyboardShowHideHandler-acknowledgements.plist */,
-				252092E613F3ED80365A6AE28A3B316D /* Pods-KeyboardShowHideHandler-dummy.m */,
-				1259E14C4E0C45C6153B9CDDD1CE939F /* Pods-KeyboardShowHideHandler-frameworks.sh */,
-				20081F776D6395CF577031C4F74FE737 /* Pods-KeyboardShowHideHandler-Info.plist */,
-				5DB936287D9DAE88F861B42F1FE581B1 /* Pods-KeyboardShowHideHandler-umbrella.h */,
-				C6268E059B9F1054AD20F1B19B307916 /* Pods-KeyboardShowHideHandler.debug.xcconfig */,
-				F6B23545C430D62155EE2E8A76B15B0C /* Pods-KeyboardShowHideHandler.release.xcconfig */,
-			);
-			name = "Pods-KeyboardShowHideHandler";
-			path = "Target Support Files/Pods-KeyboardShowHideHandler";
-			sourceTree = "<group>";
-		};
 		50F7F1C6E118EB257BCAB758BB25E361 /* KeyboardShowHideHandler */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,15 +89,6 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		5DFC513754BF7E897B5BB6F1C036FC5A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8266F7298FAFB5A288E4267E6B931D2B /* KeyboardShowHideHandler */,
-				19978845E21C89EFE8BCF3C6C1A513FE /* Pods-KeyboardShowHideHandler */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		88091AC651A4F8E36513D50320E72A0F /* Development Pods */ = {
@@ -140,6 +114,14 @@
 			path = "Pods/Target Support Files/KeyboardShowHideHandler";
 			sourceTree = "<group>";
 		};
+		9505D6EE125161B1C74041DD1509003C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2570C466704BE5A4BD5F94C2E1B1879 /* Pods-KeyboardDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		9CBE95DF51C0F50A06FE28D374E7094E /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,12 +131,30 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		B91356AFFDACEABB469B9871B3295026 /* Targets Support Files */ = {
+		BD928130DEE4A777F539751EF70D4C38 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4D05CAB6C767535860019B2C1EA445BB /* Pods-KeyboardShowHideHandler */,
+				8266F7298FAFB5A288E4267E6B931D2B /* KeyboardShowHideHandler */,
+				B1B30C5819B9CC55916CCFA939BBA5AB /* Pods-KeyboardDemo */,
 			);
-			name = "Targets Support Files";
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2570C466704BE5A4BD5F94C2E1B1879 /* Pods-KeyboardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DBC7EC8B92FC135AA71CF10A03819E8C /* Pods-KeyboardDemo.modulemap */,
+				0CEC082594E33A3D8AF3D3D10EA66782 /* Pods-KeyboardDemo-acknowledgements.markdown */,
+				F0CF49D7A5E8E52606835D8BD5F10701 /* Pods-KeyboardDemo-acknowledgements.plist */,
+				3369F20C0FA1A00578323BEBBB56D711 /* Pods-KeyboardDemo-dummy.m */,
+				D33D17AA58DE4F2AD3D1837001844EC0 /* Pods-KeyboardDemo-frameworks.sh */,
+				F0FF6E11F65C89BD1C87AA3C27AE9E7D /* Pods-KeyboardDemo-Info.plist */,
+				1EF87993C24CA51CC48178E418343FEF /* Pods-KeyboardDemo-umbrella.h */,
+				B5A2978F94266B3888CF6427C19C0CF6 /* Pods-KeyboardDemo.debug.xcconfig */,
+				233EDD07D04AB15D761FF84C5D89000F /* Pods-KeyboardDemo.release.xcconfig */,
+			);
+			name = "Pods-KeyboardDemo";
+			path = "Target Support Files/Pods-KeyboardDemo";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -163,8 +163,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				88091AC651A4F8E36513D50320E72A0F /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				5DFC513754BF7E897B5BB6F1C036FC5A /* Products */,
-				B91356AFFDACEABB469B9871B3295026 /* Targets Support Files */,
+				BD928130DEE4A777F539751EF70D4C38 /* Products */,
+				9505D6EE125161B1C74041DD1509003C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -187,36 +187,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7B7383DE476D5D2734BAE2B9D9660BCF /* Headers */ = {
+		7025A14CA3F6EE7C7B864ABD06EC425A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D230302BBFD700A8E6A975F208C18097 /* Pods-KeyboardShowHideHandler-umbrella.h in Headers */,
+				F72866CBA4D36956EE773656F1C5BBEE /* Pods-KeyboardDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		11F387F5907312290B97BD29D1E9786A /* Pods-KeyboardShowHideHandler */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7AF7130DC0421B32B848D812DDCD3BA5 /* Build configuration list for PBXNativeTarget "Pods-KeyboardShowHideHandler" */;
-			buildPhases = (
-				7B7383DE476D5D2734BAE2B9D9660BCF /* Headers */,
-				43FE4DC236A62BDD625E7CB124231E21 /* Sources */,
-				8B1121890D9B165040AB2090F4C56CE3 /* Frameworks */,
-				211BE10576893FA6BB5BAAE3BE738A02 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EA582BB7802C13344480ABD8B2F5447F /* PBXTargetDependency */,
-			);
-			name = "Pods-KeyboardShowHideHandler";
-			productName = Pods_KeyboardShowHideHandler;
-			productReference = 19978845E21C89EFE8BCF3C6C1A513FE /* Pods-KeyboardShowHideHandler */;
-			productType = "com.apple.product-type.framework";
-		};
 		6336FA7C55869AD729424F3AF8B79188 /* KeyboardShowHideHandler */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD8CA2C17493C42EC5CCA9FEC271904F /* Build configuration list for PBXNativeTarget "KeyboardShowHideHandler" */;
@@ -233,6 +214,25 @@
 			name = KeyboardShowHideHandler;
 			productName = KeyboardShowHideHandler;
 			productReference = 8266F7298FAFB5A288E4267E6B931D2B /* KeyboardShowHideHandler */;
+			productType = "com.apple.product-type.framework";
+		};
+		D467F45CCA6C369BC8AECCDF38B61C23 /* Pods-KeyboardDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC5B33FC7307DD6B68AADA4E9B4AC51 /* Build configuration list for PBXNativeTarget "Pods-KeyboardDemo" */;
+			buildPhases = (
+				7025A14CA3F6EE7C7B864ABD06EC425A /* Headers */,
+				C1EF3AA2A0D58B7629E23A5A09E28F0A /* Sources */,
+				2CF20199ED193F9A33204AE4397F869B /* Frameworks */,
+				DAB2D59190ECBC477E9A3C8E1AB7DF1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39C6A13F84EBC55F1EF24BF1DB029863 /* PBXTargetDependency */,
+			);
+			name = "Pods-KeyboardDemo";
+			productName = Pods_KeyboardDemo;
+			productReference = B1B30C5819B9CC55916CCFA939BBA5AB /* Pods-KeyboardDemo */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -253,12 +253,12 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 5DFC513754BF7E897B5BB6F1C036FC5A /* Products */;
+			productRefGroup = BD928130DEE4A777F539751EF70D4C38 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				6336FA7C55869AD729424F3AF8B79188 /* KeyboardShowHideHandler */,
-				11F387F5907312290B97BD29D1E9786A /* Pods-KeyboardShowHideHandler */,
+				D467F45CCA6C369BC8AECCDF38B61C23 /* Pods-KeyboardDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -271,7 +271,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		211BE10576893FA6BB5BAAE3BE738A02 /* Resources */ = {
+		DAB2D59190ECBC477E9A3C8E1AB7DF1A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -290,63 +290,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43FE4DC236A62BDD625E7CB124231E21 /* Sources */ = {
+		C1EF3AA2A0D58B7629E23A5A09E28F0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4008A5CEE5FB3DFF8D61AF39AE3B6CC /* Pods-KeyboardShowHideHandler-dummy.m in Sources */,
+				716F2262EF8BBED3FBC8F011B499A2FA /* Pods-KeyboardDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EA582BB7802C13344480ABD8B2F5447F /* PBXTargetDependency */ = {
+		39C6A13F84EBC55F1EF24BF1DB029863 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KeyboardShowHideHandler;
 			target = 6336FA7C55869AD729424F3AF8B79188 /* KeyboardShowHideHandler */;
-			targetProxy = D17E134444D9828939DD14D3C2972280 /* PBXContainerItemProxy */;
+			targetProxy = 8F7197E5665E64595AD227431DC5E81F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		12AF3820C94549997EC0E4D8B8692D17 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D5557CFAAC84EEA40FC6C6DA9CDD85F /* KeyboardShowHideHandler.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KeyboardShowHideHandler/KeyboardShowHideHandler-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KeyboardShowHideHandler/KeyboardShowHideHandler-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/KeyboardShowHideHandler/KeyboardShowHideHandler.modulemap";
-				PRODUCT_MODULE_NAME = KeyboardShowHideHandler;
-				PRODUCT_NAME = KeyboardShowHideHandler;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		54C8FEEEFDFF7C5AF417045DF2F2F270 /* Debug */ = {
+		21AEE61075B81A2D28073B5D4832CB1A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 615C005D122B4107CC5323A06A101753 /* KeyboardShowHideHandler.debug.xcconfig */;
 			buildSettings = {
@@ -374,16 +338,16 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		67EA33D84F53AC146A78893692483D74 /* Debug */ = {
+		71A0650634C36B561ABAA4EDCD0E4DA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6268E059B9F1054AD20F1B19B307916 /* Pods-KeyboardShowHideHandler.debug.xcconfig */;
+			baseConfigurationReference = B5A2978F94266B3888CF6427C19C0CF6 /* Pods-KeyboardDemo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -395,7 +359,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KeyboardShowHideHandler/Pods-KeyboardShowHideHandler-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-KeyboardDemo/Pods-KeyboardDemo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -404,7 +368,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KeyboardShowHideHandler/Pods-KeyboardShowHideHandler.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-KeyboardDemo/Pods-KeyboardDemo.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -417,6 +381,80 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		7E64FDD4F3807B85C07825C97C996E41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 233EDD07D04AB15D761FF84C5D89000F /* Pods-KeyboardDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KeyboardDemo/Pods-KeyboardDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeyboardDemo/Pods-KeyboardDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		84D804D1AC078872653698055EA20278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D5557CFAAC84EEA40FC6C6DA9CDD85F /* KeyboardShowHideHandler.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeyboardShowHideHandler/KeyboardShowHideHandler-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeyboardShowHideHandler/KeyboardShowHideHandler-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KeyboardShowHideHandler/KeyboardShowHideHandler.modulemap";
+				PRODUCT_MODULE_NAME = KeyboardShowHideHandler;
+				PRODUCT_NAME = KeyboardShowHideHandler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -546,44 +584,6 @@
 			};
 			name = Release;
 		};
-		B9E5AC1A3F10F21C8C3A34B116A617F1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6B23545C430D62155EE2E8A76B15B0C /* Pods-KeyboardShowHideHandler.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KeyboardShowHideHandler/Pods-KeyboardShowHideHandler-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KeyboardShowHideHandler/Pods-KeyboardShowHideHandler.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -596,20 +596,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7AF7130DC0421B32B848D812DDCD3BA5 /* Build configuration list for PBXNativeTarget "Pods-KeyboardShowHideHandler" */ = {
+		AD8CA2C17493C42EC5CCA9FEC271904F /* Build configuration list for PBXNativeTarget "KeyboardShowHideHandler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				67EA33D84F53AC146A78893692483D74 /* Debug */,
-				B9E5AC1A3F10F21C8C3A34B116A617F1 /* Release */,
+				21AEE61075B81A2D28073B5D4832CB1A /* Debug */,
+				84D804D1AC078872653698055EA20278 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AD8CA2C17493C42EC5CCA9FEC271904F /* Build configuration list for PBXNativeTarget "KeyboardShowHideHandler" */ = {
+		DDC5B33FC7307DD6B68AADA4E9B4AC51 /* Build configuration list for PBXNativeTarget "Pods-KeyboardDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54C8FEEEFDFF7C5AF417045DF2F2F270 /* Debug */,
-				12AF3820C94549997EC0E4D8B8692D17 /* Release */,
+				71A0650634C36B561ABAA4EDCD0E4DA6 /* Debug */,
+				7E64FDD4F3807B85C07825C97C996E41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

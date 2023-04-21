@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_KeyboardShowHideHandlerVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_KeyboardShowHideHandlerVersionString[];
+FOUNDATION_EXPORT double Pods_KeyboardDemoVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_KeyboardDemoVersionString[];
 
